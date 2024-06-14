@@ -39,7 +39,7 @@ namespace RecipeBuilderApp
                 }
 
                 string foodGroup = selectedFoodGroup.Content.ToString();
-
+                 
                 if (!double.TryParse(CaloriesTextBox.Text, out double calories))
                 {
                     MessageBox.Show("Please enter a valid calorie amount.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
