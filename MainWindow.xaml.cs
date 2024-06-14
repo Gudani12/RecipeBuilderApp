@@ -43,7 +43,7 @@ namespace RecipeBuilderApp
                 if (!double.TryParse(CaloriesTextBox.Text, out double calories))
                 {
                     MessageBox.Show("Please enter a valid calorie amount.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
+                    return; 
                 }
 
                 string steps = RecipeStepsTextBox.Text; 
