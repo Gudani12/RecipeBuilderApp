@@ -29,7 +29,7 @@ namespace RecipeBuilderApp
                 if (!double.TryParse(IngredientQuantityTextBox.Text, out double ingredientQuantity))
                 {
                     MessageBox.Show("Please enter a valid ingredient quantity.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
+                    return; 
                 }
 
                 if (!(FoodGroupComboBox.SelectedItem is ComboBoxItem selectedFoodGroup))
