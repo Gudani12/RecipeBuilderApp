@@ -22,6 +22,6 @@ namespace RecipeBuilderApp
 
             // Assert
             Assert.AreEqual(initialRecipeCount + 1, recipeManager.Recipes.Count, "Recipe not added correctly.");
-        }
+        } 
     }
 }
