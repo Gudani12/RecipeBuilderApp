@@ -53,7 +53,7 @@ namespace RecipeBuilderApp
                     Name = ingredientName,
                     Measurement = ingredientMeasurement,
                     Quantity = ingredientQuantity,
-                    FoodGroup = foodGroup,
+                    FoodGroup = foodGroup, 
                     Calories = calories
                 };
 
