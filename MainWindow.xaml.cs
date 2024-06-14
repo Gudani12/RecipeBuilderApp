@@ -10,7 +10,7 @@ namespace RecipeBuilderApp
 {
     public partial class MainWindow : Window
     {
-        private RecipeManager recipeManager;
+        private RecipeManager recipeManager; 
 
         public MainWindow()
         {
