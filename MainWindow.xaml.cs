@@ -46,7 +46,7 @@ namespace RecipeBuilderApp
                     return;
                 }
 
-                string steps = RecipeStepsTextBox.Text;
+                string steps = RecipeStepsTextBox.Text; 
 
                 var ingredient = new Ingredient
                 {
