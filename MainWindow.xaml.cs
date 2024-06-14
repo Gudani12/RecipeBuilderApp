@@ -8,7 +8,7 @@ using System.Windows.Controls;
 
 namespace RecipeBuilderApp
 {
-    public partial class MainWindow : Window 
+    public partial class MainWindow : Window  
     {
         private RecipeManager recipeManager; 
 
